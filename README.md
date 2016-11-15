@@ -8,7 +8,7 @@ This source code is the basis of the following paper
 ## Building
 It's developed on clab/cnn toolkit.
 - Install clab/cnn following [clab/cnn](https://github.com/clab/cnn-v1).
-- Add source code to folder *cnn/examples* and add bilstm-dn to *CMakeLists.txt*
+- Add the source code to folder *cnn/examples* and add bilstm-dn to *CMakeLists.txt*
 - Make again.
 
 ## How to run
