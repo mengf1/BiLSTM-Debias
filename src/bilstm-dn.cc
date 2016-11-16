@@ -21,7 +21,7 @@ using namespace std;
 using namespace cnn;
 
 
-float pdrop = 0.5;
+//float pdrop = 0.5;
 unsigned LAYERS = 1;
 unsigned INPUT_DIM = 128;
 unsigned HIDDEN_DIM = 128;
@@ -37,11 +37,10 @@ int kNONE;
 int kSOS;
 int kEOS;
 
-
+// default epochs
 unsigned MAX_EPOCHS=10;
-double UNK_RATIO = 0.1;
 
-// use the universal tagset.
+// use the universal tagset
 const string TAG_SET[] = {"VERB", "NOUN", "PRON","ADJ", "ADV", "ADP", "CONJ", "DET", "NUM", "PRT", "X", "."};
 
 template <class Builder>
@@ -293,7 +292,7 @@ int main(int argc, char** argv) {
                         assert(x.size()==y.size());
                         test.push_back(make_pair(x,y));
                         tetoks += x.size();
-            
+
                 }
                 cerr << telc << " lines, " << tetoks << " tokens\n";
         }
