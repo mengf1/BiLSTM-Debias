@@ -3,7 +3,7 @@
 ## Introduction
 
 This source code is the basis of the following paper:
-> Learning when to trust distant supervision: An application to low-resource POS tagging using cross-lingual projection, CoNLL 2016
+> [Learning when to trust distant supervision: An application to low-resource POS tagging using cross-lingual projection](http://www.aclweb.org/anthology/K/K16/K16-1018.pdf), CoNLL 2016
 
 ## Building
 It's developed on clab/cnn toolkit.
